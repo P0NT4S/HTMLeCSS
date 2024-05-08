@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#catNav{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1f 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+#a{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: brown;
+}
+#b{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    background-color: brown;
+}
+#c{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: brown;
+}
+#d{
+    grid-column: 3/5;
+    grid-row: 2/3;
+    background-color: brown;
+}
